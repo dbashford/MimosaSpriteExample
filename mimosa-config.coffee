@@ -3,3 +3,8 @@ exports.config =
   modules: ["server","live-reload","sprite"]
   watch:
     exclude: [/\/images\/sprite\//]
+
+  # uncomment this and run "mimosa sprite" to regen the sprite with a horizontal layout
+  # sprite:
+    # options:
+      # layout:"horizontal"
