@@ -5,7 +5,7 @@ exports.config =
     "server"
     "live-reload"
     "sprite"
-    "sass"
+    "less"
     "copy"
   ]
 
@@ -15,4 +15,4 @@ exports.config =
 
   sprite:
     options: (opts) ->
-      opts.stylesheet = "sass"
+      opts.stylesheet = "less"

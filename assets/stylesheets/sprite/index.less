@@ -1,0 +1,11 @@
+@icon-grey-collapse: "0 0 13px 13px";
+@icon-grey-expand: "0 -13px 13px 13px";
+@icon-like: "0 -26px 15px 13px";
+@icon-preview-arrow: "0 -39px 16px 21px";
+@mimosa-hat: "0 -60px 421px 421px";
+.sprite (@sprite) {
+    background-image: url('../../images/index.png');
+    background-position: ~`@{sprite}.split(' ')[0]` ~`@{sprite}.split(' ')[1]`;
+    width: ~`@{sprite}.split(' ')[2]`;
+    height: ~`@{sprite}.split(' ')[3]`;
+}
