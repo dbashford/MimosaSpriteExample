@@ -1,0 +1,10 @@
+$icon-arrow-down: 0 0 13px 13px
+$icon-bookmark-off: 0 -13px 14px 25px
+$icon-bookmark-on: 0 -38px 14px 25px
+$icon-citation: 0 -63px 16px 16px
+$mimosa-hat: 0 -79px 421px 421px
+@mixin sprite($sprite)
+    background-image: url('../../images/index2.png')
+    background-position: nth($sprite, 1) nth($sprite, 2)
+    width: nth($sprite, 3)
+    height: nth($sprite, 4)

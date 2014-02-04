@@ -1,0 +1,10 @@
+$icon-grey-collapse: 0 0 13px 13px
+$icon-grey-expand: 0 -13px 13px 13px
+$icon-like: 0 -26px 15px 13px
+$icon-preview-arrow: 0 -39px 16px 21px
+$mimosa-hat: 0 -60px 421px 421px
+@mixin sprite($sprite)
+    background-image: url('../../images/index.png')
+    background-position: nth($sprite, 1) nth($sprite, 2)
+    width: nth($sprite, 3)
+    height: nth($sprite, 4)

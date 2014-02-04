@@ -1,0 +1,27 @@
+@import "sprite/index"
+
+body
+  padding: 20px
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  background-color: maroon
+
+img
+  border: 1px solid white
+
+.container-left
+  float: left
+  width: 500px
+  border-right: 1px solid white
+  padding-right: 20px
+
+.container-right
+  float: left
+  width: 500px
+  margin-left: 20px
+  div
+    display: inline-block
+    margin-left: 20px
+
+.mimosa-hat
+  clear: both
+  @include sprite($mimosa-hat)
