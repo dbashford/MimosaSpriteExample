@@ -5,6 +5,6 @@ exports.config =
     exclude: [/\/images\/sprite\//]
 
   # uncomment this and run "mimosa sprite" to regen the sprite with a horizontal layout
-  # sprite:
-    # options:
-      # layout:"horizontal"
+  sprite:
+    options: (opts) ->
+      opts.layout = "diagonal"
